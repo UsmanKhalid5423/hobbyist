@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hobbyist"
+4    android:versionCode="18"
+5    android:versionName="16.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:7:5-79
+15-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="com.android.vending.BILLING" />
+16-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:8:5-67
+16-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.145.0] C:\Users\itxme\.gradle\caches\transforms-3\fd023a9cbab5f98c37d022d7ef899669\transformed\jetified-flipper-0.145.0\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.145.0] C:\Users\itxme\.gradle\caches\transforms-3\fd023a9cbab5f98c37d022d7ef899669\transformed\jetified-flipper-0.145.0\AndroidManifest.xml:16:22-73
+18
+19    <queries>
+19-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+20        <intent>
+20-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+21            <action android:name="android.media.action.IMAGE_CAPTURE" />
+21-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+21-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+22        </intent>
+23    </queries>
+24
+25    <application
+25-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:10:5-31:19
+26        android:name="com.hobbyist.MainApplication"
+26-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:11:7-38
+27        android:allowBackup="false"
+27-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:15:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] C:\Users\itxme\.gradle\caches\transforms-3\886da8326454dc71f090cbef92983bdc\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:13:7-41
+31        android:label="@string/app_name"
+31-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:12:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:14:7-52
+33        android:theme="@style/AppTheme"
+33-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:16:7-38
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:17:7-42
+35        <activity
+35-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\debug\AndroidManifest.xml:11:9-111
+36            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+36-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\debug\AndroidManifest.xml:11:19-83
+37            android:exported="false" />
+37-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\debug\AndroidManifest.xml:11:84-108
+38        <activity
+38-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:19:7-30:18
+39            android:name="com.hobbyist.MainActivity"
+39-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:20:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:22:9-118
+41            android:exported="true"
+41-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:25:9-32
+42            android:label="@string/app_name"
+42-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:21:9-41
+43            android:launchMode="singleTask"
+43-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:23:9-40
+44            android:windowSoftInputMode="adjustPan" >
+44-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:24:9-48
+45            <intent-filter>
+45-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:26:9-29:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:27:13-65
+46-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:27:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:28:13-73
+48-->C:\Users\itxme\Downloads\hobbyist3\hobbyist3\android\app\src\main\AndroidManifest.xml:28:23-70
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+53            android:name="androidx.core.content.FileProvider"
+53-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-62
+54            android:authorities="com.hobbyist.provider"
+54-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+55            android:exported="false"
+55-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+56            android:grantUriPermissions="true" >
+56-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+57            <meta-data
+57-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+59                android:resource="@xml/provider_paths" />
+59-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+60        </provider>
+61
+62        <activity
+62-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+63            android:name="com.yalantis.ucrop.UCropActivity"
+63-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+64            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+64-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+65
+66        <provider
+66-->[:react-native-webview] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+67            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+67-->[:react-native-webview] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-83
+68            android:authorities="com.hobbyist.fileprovider"
+68-->[:react-native-webview] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+69            android:exported="false"
+69-->[:react-native-webview] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+70            android:grantUriPermissions="true" >
+70-->[:react-native-webview] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+71            <meta-data
+71-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+73                android:resource="@xml/file_provider_paths" />
+73-->[:react-native-image-crop-picker] C:\Users\itxme\Downloads\hobbyist3\hobbyist3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+74        </provider>
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\itxme\.gradle\caches\transforms-3\5f0846e5eed85c7da25920eb4003843f\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\itxme\.gradle\caches\transforms-3\5f0846e5eed85c7da25920eb4003843f\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\itxme\.gradle\caches\transforms-3\5f0846e5eed85c7da25920eb4003843f\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\itxme\.gradle\caches\transforms-3\5f0846e5eed85c7da25920eb4003843f\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\itxme\.gradle\caches\transforms-3\75ea41dd9c966b225b7174e22f02fe56\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\itxme\.gradle\caches\transforms-3\75ea41dd9c966b225b7174e22f02fe56\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\itxme\.gradle\caches\transforms-3\75ea41dd9c966b225b7174e22f02fe56\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+84
+85        <provider
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\itxme\.gradle\caches\transforms-3\c4b38e375b3ef8b9e4f67fe8148a3016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+86            android:name="androidx.startup.InitializationProvider"
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\itxme\.gradle\caches\transforms-3\c4b38e375b3ef8b9e4f67fe8148a3016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+87            android:authorities="com.hobbyist.androidx-startup"
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\itxme\.gradle\caches\transforms-3\c4b38e375b3ef8b9e4f67fe8148a3016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+88            android:exported="false" >
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\itxme\.gradle\caches\transforms-3\c4b38e375b3ef8b9e4f67fe8148a3016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+89            <meta-data
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\itxme\.gradle\caches\transforms-3\c4b38e375b3ef8b9e4f67fe8148a3016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+90                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\itxme\.gradle\caches\transforms-3\c4b38e375b3ef8b9e4f67fe8148a3016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+91                android:value="androidx.startup" />
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\itxme\.gradle\caches\transforms-3\c4b38e375b3ef8b9e4f67fe8148a3016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+92            <meta-data
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\itxme\.gradle\caches\transforms-3\2ef01948912101ef241ba8fb76094342\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\itxme\.gradle\caches\transforms-3\2ef01948912101ef241ba8fb76094342\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+94                android:value="androidx.startup" />
+94-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\itxme\.gradle\caches\transforms-3\2ef01948912101ef241ba8fb76094342\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+95        </provider>
+96
+97        <meta-data
+97-->[com.android.billingclient:billing:4.0.0] C:\Users\itxme\.gradle\caches\transforms-3\a45253c706a99577ac11e921a9d6ea35\transformed\jetified-billing-4.0.0\AndroidManifest.xml:13:9-15:37
+98            android:name="com.google.android.play.billingclient.version"
+98-->[com.android.billingclient:billing:4.0.0] C:\Users\itxme\.gradle\caches\transforms-3\a45253c706a99577ac11e921a9d6ea35\transformed\jetified-billing-4.0.0\AndroidManifest.xml:14:13-73
+99            android:value="4.0.0" />
+99-->[com.android.billingclient:billing:4.0.0] C:\Users\itxme\.gradle\caches\transforms-3\a45253c706a99577ac11e921a9d6ea35\transformed\jetified-billing-4.0.0\AndroidManifest.xml:15:13-34
+100
+101        <activity
+101-->[com.android.billingclient:billing:4.0.0] C:\Users\itxme\.gradle\caches\transforms-3\a45253c706a99577ac11e921a9d6ea35\transformed\jetified-billing-4.0.0\AndroidManifest.xml:17:9-21:75
+102            android:name="com.android.billingclient.api.ProxyBillingActivity"
+102-->[com.android.billingclient:billing:4.0.0] C:\Users\itxme\.gradle\caches\transforms-3\a45253c706a99577ac11e921a9d6ea35\transformed\jetified-billing-4.0.0\AndroidManifest.xml:18:13-78
+103            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+103-->[com.android.billingclient:billing:4.0.0] C:\Users\itxme\.gradle\caches\transforms-3\a45253c706a99577ac11e921a9d6ea35\transformed\jetified-billing-4.0.0\AndroidManifest.xml:19:13-96
+104            android:exported="false"
+104-->[com.android.billingclient:billing:4.0.0] C:\Users\itxme\.gradle\caches\transforms-3\a45253c706a99577ac11e921a9d6ea35\transformed\jetified-billing-4.0.0\AndroidManifest.xml:20:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.android.billingclient:billing:4.0.0] C:\Users\itxme\.gradle\caches\transforms-3\a45253c706a99577ac11e921a9d6ea35\transformed\jetified-billing-4.0.0\AndroidManifest.xml:21:13-72
+106    </application>
+107
+108</manifest>
